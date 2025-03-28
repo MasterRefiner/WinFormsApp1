@@ -98,11 +98,21 @@
             BtnMin = new Button();
             BtnExit = new Button();
             BtnMax = new Button();
+<<<<<<< HEAD
+=======
+            panel4 = new Panel();
+            pictureBox2 = new PictureBox();
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
+<<<<<<< HEAD
+=======
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
             SuspendLayout();
             // 
             // panel1
@@ -288,6 +298,10 @@
             configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
             configuraçõesToolStripMenuItem.Size = new Size(182, 22);
             configuraçõesToolStripMenuItem.Text = "Configurações";
+<<<<<<< HEAD
+=======
+            configuraçõesToolStripMenuItem.Click += configuraçõesToolStripMenuItem_Click;
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
             // 
             // preferênciasToolStripMenuItem
             // 
@@ -628,13 +642,45 @@
             BtnMax.UseVisualStyleBackColor = true;
             BtnMax.Click += button2_Click;
             // 
+<<<<<<< HEAD
+=======
+            // panel4
+            // 
+            panel4.Controls.Add(pictureBox2);
+            panel4.Dock = DockStyle.Fill;
+            panel4.Location = new Point(0, 28);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(800, 422);
+            panel4.TabIndex = 1;
+            panel4.Paint += panel4_Paint;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(800, 422);
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
+<<<<<<< HEAD
             ClientSize = new Size(800, 450);
             Controls.Add(panel1);
+=======
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(800, 450);
+            Controls.Add(panel4);
+            Controls.Add(panel1);
+            DoubleBuffered = true;
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
@@ -647,6 +693,11 @@
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+            panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
             ResumeLayout(false);
         }
 
@@ -721,5 +772,10 @@
         private ToolStripMenuItem receitasToolStripMenuItem;
         private ToolStripMenuItem produtosToolStripMenuItem;
         private Button BtnUser;
+<<<<<<< HEAD
+=======
+        private Panel panel4;
+        private PictureBox pictureBox2;
+>>>>>>> Update 28.03.2025Adicionar arquivos de projeto.
     }
 }
